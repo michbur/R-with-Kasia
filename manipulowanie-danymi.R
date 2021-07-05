@@ -48,3 +48,10 @@ arrange(df_test, desc(wzrost)) %>%
 
 # podac sredni wzrost uczennic i uczniow
 
+# 1. podac mediane wzrostu, MAD wzrostu (mad) oraz mediane + MAD i mediane - MAD 
+# wzrostu uczniow i uczennic w danej klasie
+
+# 2. podac wzrost najwyzszego ucznia w kazdej klasie
+
+# 3. podac ilu jest uczniow i uczennic w klasach
+
