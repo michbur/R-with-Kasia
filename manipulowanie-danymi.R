@@ -51,7 +51,9 @@ arrange(df_test, desc(wzrost)) %>%
 # 1. podac mediane wzrostu, MAD wzrostu (mad) oraz mediane + MAD i mediane - MAD 
 # wzrostu uczniow i uczennic w danej klasie
 
-# 2. podac wzrost najwyzszego ucznia w kazdej klasie
+# 2. podac wzrost najwyzszego ucznia w kazdej klasie. Rozwiaz wykorzystujac 
+# a) filter, group_by i summarize
+# b) tylko filter i group_by
 
 # 3. podac ilu jest uczniow i uczennic w klasach
 
