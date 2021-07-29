@@ -46,4 +46,12 @@ for(ith_occ in unique(dat_with_no_na[["occupation_vector"]])) {
     write.csv(file = paste0("./results/", ith_occ, ".csv"), row.names = FALSE)
 }
 
-list.dirs(recursive = FALSE)
+
+# stworzyc dla kazdej z galezi przemyslu folder (base::dir.create) w którym będzie się znajdowalo:
+# 1) tabela .csv zawierajaca przedstawicieli tej galezi przemyslu w podziale na: 
+# rase, zwiazek zawodowy i zawod
+# 2) plik tekstowy zawierajacy wynik testu t (przekazany za pomoca utils::capture.output) 
+# porownujacy liczbe godzin przepracowanych przez osoby bedace w zwiazku zawodowym 
+# i nie bedace w takim zwiazku 
+# 3) plik tekstowy zawierajacy opis ilu przedstawicieli danego zawodu w danej
+# galezi przemyslu jest w zwiazku zawodowym
