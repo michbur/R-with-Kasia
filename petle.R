@@ -66,3 +66,7 @@ for(ith_occ in unique(dat_with_no_na[["occupation_vector"]])) {
 #      przemyslu pracuja
 #   c) plik tekstowy podajacy nazwy pliku csv i podfolderu oraz tlumaczacy ich zawartosc
 # 3. stworz petle, ktora usuwa foldery stworzone w zadaniu 2 razem z podfolderami
+
+png("test.png")
+plot(1L:10, rnorm(10))
+dev.off()
