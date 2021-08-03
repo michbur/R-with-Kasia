@@ -55,3 +55,14 @@ for(ith_occ in unique(dat_with_no_na[["occupation_vector"]])) {
 # i nie bedace w takim zwiazku 
 # 3) plik tekstowy zawierajacy opis ilu przedstawicieli danego zawodu w danej
 # galezi przemyslu jest w zwiazku zawodowym
+
+# 1. uzywajac funkcji base::unlink napisz petle, ktora usuwa foldery stworzone w poprzednim zadaniu
+# 2. stworz dla kazdej z mozliwych wartosci zawodu folder i tam dodaj:
+#   a) folder w którym bedzie znajdowal się dla kazdej z ras wynik testu korelacji (stats::cor.test) 
+#      miedzy liczba godzin pracy z zarobkami (uzyj capture output) oraz wykres punktowy w formacie png
+#      (uzyj funkcji plot, png i pamietaj o dev.off), ktory pokaze zaleznosc liczby godzin od zarobkow
+#      (np. plot(1L:10, rnorm(10)))
+#   b) plik csv z informacja ile osob w danym zawodzie ma dany stan cywilny i w jakiej galezi 
+#      przemyslu pracuja
+#   c) plik tekstowy podajacy nazwy pliku csv i podfolderu oraz tlumaczacy ich zawartosc
+# 3. stworz petle, ktora usuwa foldery stworzone w zadaniu 2 razem z podfolderami
